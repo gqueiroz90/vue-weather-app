@@ -36,7 +36,7 @@
         return `https://openweathermap.org/img/wn/${iconCode}@2x.png`;
       },
       weatherDescription() {
-        // Mapeando a descrição do clima para português brasileiro
+        // Mapeando a descrição do clima para português br
         const weatherDescriptions = {
           'clear sky': 'Céu Limpo',
           'few clouds': 'Poucas Nuvens',

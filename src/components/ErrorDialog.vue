@@ -30,5 +30,5 @@ export default {
 </script>
 
 <style scoped>
-/* Adicione seus estilos personalizados conforme necessário */
+
 </style>
