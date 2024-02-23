@@ -24,7 +24,7 @@ export default {
   },
   methods: {
     updateCity() {
-      // Se desejar fazer algo ao atualizar a cidade, adicione aqui
+      
     },
     searchWeather() {
       this.$emit("search", this.city);
@@ -43,5 +43,5 @@ export default {
   width: 300px; /* Define a largura desejada */
   margin: 0 auto;
 }
-/* Adicione seus estilos personalizados aqui */
+
 </style>
