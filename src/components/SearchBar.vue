@@ -1,9 +1,9 @@
 <template>
   <v-container>
-    <v-card class="mx-auto mb-2" max-width="350" >
+    <v-card class="mx-auto mb-2" max-width="350" color="rgba(210, 210, 210, 0.8)">
     <v-row>
       <v-col>
-        <v-text-field v-model="city" label="Cidade" @input="updateCity" @keydown.enter="searchWeather" class="custom-search-bar" color="secondary"/>
+        <v-text-field v-model="city" label="Cidade" @input="updateCity" @keydown.enter="searchWeather" class="custom-search-bar" color="secondary" prepend-icon="mdi-map-marker"/>
       </v-col>
     </v-row>
     <v-row>
