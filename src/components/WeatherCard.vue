@@ -1,6 +1,6 @@
   <template>
     <v-container>
-      <v-card class="mx-auto" max-width="350">
+      <v-card class="mx-auto" max-width="350" color="rgba(210, 210, 210, 0.8)">
         <v-row >
           <v-col>
             <v-card-item title class="card-title">
@@ -67,17 +67,17 @@
   <style scoped>
 
   .country-flag {
-    width: 1.5rem; /* Defina o tamanho da bandeira */
+    width: 1.5rem; /* Define o tamanho da bandeira */
     height: auto;
   }
 
   .weather-icon {
-    width: 5rem; /* Defina o tamanho do ícone do tempo */
+    width: 5rem; /* Define o tamanho do ícone do tempo */
     height: auto;
   }
 
   .weather-description{
-    max-width: 300px; /* Defina a largura máxima desejada */
+    max-width: 300px; /* Define a largura máxima desejada */
     width: 100%; /* Ocupar a largura disponível */
     margin: 0 auto; /* Centralizar horizontalmente */
   }
